@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 </head>
 
 <body>
@@ -52,7 +54,7 @@
         <div id="lead-content">
             <h1>MD Taha Ahmed</h1>
             <h2>Web Developer</h2>
-            <a href="https://docs.google.com/document/d/1vw8QnbBnn-Yz47b93ISPLFAjb9nV8U6_75F5j6zCRwM/edit?usp=sharing"
+            <a href="https://docs.google.com/document/d/1M4dK22oV8GDsc55I2NWNqTjdwndnHLUadw9m16a-9vY/edit?usp=sharing"
                 class="btn-rounded-white">Resume</a>
         </div>
         <!-- End #lead-content -->
@@ -74,7 +76,8 @@
         <div class="text-center profile_t_c">
             <p class="profile_t_h">Hi There</p>
             <p class="profile_t_t"> I am 19 years old Web developer with strong passion for anything web related,
-                <br>and I'm going to mobile app development soon.</p>
+                <br>and I'm going to mobile app development soon.
+            </p>
         </div>
     </div>
     <div class="container what-i-do">
@@ -144,193 +147,116 @@
             <div class="col-0">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/Over 4M Pixel jpeg & png_Notebook_PC_1_Blank (1).jpg" alt="Image" style="padding: 10%;" />
+                        <img src="images/Over 4M Pixel jpeg & png_Notebook_PC_1_Blank (1).jpg" alt="Image"
+                            style="padding: 10%;" />
                     </div>
                     <!-- End .project-image -->
-                    <div class="project-info" style="text-align: center;">
-                        <h3>Yemen.com Website</h3>
+                    <div class="project-info">
+                        <h3>Yemen.com</h3>
                         <p>
-                         
+                            Yemen.com is a static website that provides some information about Yemen like the History,
+                            Tourism and some important Cities in Yemen.
                         </p>
-                        <a href="https://github.com/shivammaindola/FoodDeliveryApp">View Project</a>
+                        <a href="">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/ismart.png" alt="Image" height="420" width="220" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>iSMart</h3>
-                        <p>
-                            iSMart is a 3 in 1 next-generation education, information cum investment mobile application.
-                            It's goal is to become your trusted partner in your financial journey by helping you learn
-                            about Share Market, Mutual Fund and Cryptocurrency. It was my first app that's why it is
-                            only informative.
-                        </p>
-                        <a href="https://play.google.com/store/apps/details?id=com.ismartapp.lenovo.ismart">View
-                            Project</a>
-                    </div>
-                    <!-- End .project-info -->
+                <div id="skills">
+                    <h2 class="heading">Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>C</li>
+                        <li>Git</li>
+                    </ul>
                 </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/discover.jpg" alt="Image" height="420" width="220" />
+                <!-- End #skills -->
+
+                <div id="contact">
+                    <h2>Get in Touch</h2>
+                    <div id="contact-form">
+                        <div id="gitalk-container">
+
+                        </div>
+                    
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Discover India Quiz</h3>
-                        <p>
-                            Discover India Quiz is a brain engaging quiz app that aids in learning the facts about
-                            India. This app is made for the google assitant under the programme action on google.
-                        </p>
-                        <a href="https://assistant.google.com/services/a/uid/000000ae113ab4e7?hl=en">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
+                    <!-- End #contact-form -->
                 </div>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/photoblog.jpg" alt="Image" height="420" width="220" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Blog App</h3>
-                        <p>
-                            Android blog app with the following functionality- Signup, signIn, post photos with text,
-                            User profile, etc.
-                        </p>
-                        <a href="https://play.google.com/store/apps/details?id=com.ismartapp.lenovo.ismart">View
-                            Project</a>
-                    </div>
-                </div>
+                <!-- End #contact -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/spark.jpg" alt="Image" height="420" width="220" />
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-5 copyright">
+                                <p>
+                                    Copyright &copy; 2021 MD TAHA AHMED AL-DAGHAN
+                                </p>
+                            </div>
+                            <div class="col-sm-2 top">
+                                <span id="to-top">
+                                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="col-sm-5 social">
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/md-taha-ahmed" target="_blank"><i
+                                                class="fa fa-github" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://stackoverflow.com/users/15613091/md-taha-projects?tab=profile"
+                                            target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/md-taha-ahmed-al-daghan-3964b8209/"
+                                            target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100012439833394"
+                                            target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/md.taha.ahmed/"
+                                            target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/MD_TAHA_AHMED"
+                                            target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>My Credible Info</h3>
-                        <p>
-                            This is a Phase - II Task - II Android App for The Sparks Foundation. This Application helps
-                            users to store their personal and educational data and they can edit or delete it in future.
-                            This application is based on using of REST API's to add edit and delete the details of an
-                            user by using JSON and volley library.
-                        </p>
-                        <a href="https://github.com/shivammaindola/SparksFoundationTask2">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
+                </footer>
+                <!-- End footer -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/drone.jpg" alt="Image" height="420" width="220" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Quadcopter</h3>
-                        <p>
-                            Made a Quadcopter using KK 2.1.5 Flight controller and represented our college at IIT Bombay
-                            and IIT Roorkee Techfest.
-                        </p>
-                        <a href="https://play.google.com/store/apps/details?id=com.ismartapp.lenovo.ismart">View
-                            Project</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- End #projects -->
-
-        <div id="skills">
-            <h2 class="heading">Skills</h2>
-            <ul>
-                <li>Java</li>
-                <li>Android</li>
-                <li>XML</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>C</li>
-                <li>C++</li>
-                <li>JavaScript</li>
-                <li>SQLite</li>
-                <li>Rest API</li>
-                <li>Firebase</li>
-                <li>Open Source</li>
-                <li>Git</li>
-                <li>Google Analytics</li>
-            </ul>
-        </div>
-        <!-- End #skills -->
-
-        <div id="contact">
-            <h2>Get in Touch</h2>
-            <div id="contact-form">
-                <form method="POST" action="https://mailthis.to/shivammaindola11@gmail.com">
-                    <input type="hidden" name="_subject" value="Contact request from personal website" />
-                    <input type="email" name="_replyto" placeholder="Your email" required>
-                    <textarea name="message" placeholder="Your message" required></textarea>
-                    <button type="submit">Send</button>
-                </form>
-            </div>
-            <!-- End #contact-form -->
-        </div>
-        <!-- End #contact -->
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5 copyright">
-                        <p>
-                            Copyright &copy; 2019 SHIVAM MAINDOLA
-                        </p>
-                    </div>
-                    <div class="col-sm-2 top">
-                        <span id="to-top">
-                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <div class="col-sm-5 social">
-                        <ul>
-                            <li>
-                                <a href="https://github.com/shivammaindola" target="_blank"><i class="fa fa-github"
-                                        aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://stackoverflow.com/users/9744295/shivam-maindola" target="_blank"><i
-                                        class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/shivam-maindola-58161214b/" target="_blank"><i
-                                        class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/shivam.maindola.7" target="_blank"><i
-                                        class="fa fa-facebook" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- End footer -->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/scripts.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Acme|Comfortaa|Josefin+Sans" rel="stylesheet">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="js/scripts.min.js"></script>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+                    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+                    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+                    crossorigin="anonymous"></script>
+                <link href="https://fonts.googleapis.com/css?family=Acme|Comfortaa|Josefin+Sans" rel="stylesheet">
+                <script>
+                    const gitalk = new Gitalk({
+                      clientID: '32bd7f7bb11067420689',
+                      clientSecret: '1e25d6ddfd5063d22b475e38923d6740f3d1c6ad',
+                      repo: 'profile-website',
+                      owner: 'md-taha-ahmed',
+                      admin: ['md-taha-ahmed'],
+                      id: location.pathname,
+                      distractionFreeMode: false  // Facebook-like distraction free mode
+                    })
+                    
+                    gitalk.render('gitalk-container')
+                    </script>
 </body>
 
 </html>
