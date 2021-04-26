@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 </head>
 
 <body>
@@ -177,10 +175,20 @@
                 <div id="contact">
                     <h2>Get in Touch</h2>
                     <div id="contact-form">
-                        <div id="gitalk-container">
-
-                        </div>
-                    
+                        <form action="https://submit-form.com/RhoqXV3n">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name" required="" />
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required="" />
+                            <label for="message">Message</label>
+                            <textarea
+                              id="message"
+                              name="message"
+                              placeholder="Message"
+                              required=""
+                            ></textarea>
+                            <button type="submit">Send</button>
+                          </form>
                     </div>
                     <!-- End #contact-form -->
                 </div>
@@ -244,19 +252,6 @@
                     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
                     crossorigin="anonymous"></script>
                 <link href="https://fonts.googleapis.com/css?family=Acme|Comfortaa|Josefin+Sans" rel="stylesheet">
-                <script>
-                    const gitalk = new Gitalk({
-                      clientID: '32bd7f7bb11067420689',
-                      clientSecret: '1e25d6ddfd5063d22b475e38923d6740f3d1c6ad',
-                      repo: 'profile-website',
-                      owner: 'md-taha-ahmed',
-                      admin: ['md-taha-ahmed'],
-                      id: location.pathname,
-                      distractionFreeMode: false  // Facebook-like distraction free mode
-                    })
-                    
-                    gitalk.render('gitalk-container')
-                    </script>
 </body>
 
 </html>
